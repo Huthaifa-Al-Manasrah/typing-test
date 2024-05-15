@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">  
+    <meta charset="utf-8">
     <title>Typing Test</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +11,8 @@
       <input type="text" class="input-field">
       <div class="content-box">
         <div class="timer">
-            <p></p> 
-          </div>
+          <p></p>
+        </div>
         <div class="typing-text">
           <p></p>
         </div>
@@ -37,11 +37,22 @@
           </ul>
           <button>Try Again</button>
         </div>
+        <div class="results">
+          <h2>Recent Results</h2>
+          <ul class="results-list"></ul>
+        </div>
+      </div>
+      <div class="custom-paragraph">
+        <h2>Add Custom Paragraph</h2>
+        <textarea id="customParagraph" placeholder="Type your custom paragraph here..."></textarea>
+        <button id="addParagraphBtn">Add Paragraph</button>
+      </div>
+      <div class="paragraph-selection">
+        <h2>Select a Paragraph</h2>
+        <div class="paragraph-cards"></div>
       </div>
     </div>
-
     <script src="js/paragraphs.js"></script>
     <script src="js/script.js"></script>
-  
   </body>
 </html>
